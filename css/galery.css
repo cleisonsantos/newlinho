@@ -1,0 +1,6 @@
+.galery-img{
+  height: 318px;
+  display: block;
+  background-image: url('../img/galeria/taças.jpg');
+  background-size: cover;
+}
