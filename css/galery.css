@@ -18,3 +18,24 @@
   background-image: url('../img/galeria/escritorio.png');
   background-size: cover;
 }
+
+.galery-img4{
+  height: 318px;
+  display: block;
+  background-image: url('../img/galeria/sala.png');
+  background-size: cover;
+}
+
+.galery-img5{
+  height: 318px;
+  display: block;
+  background-image: url('../img/galeria/sala2.png');
+  background-size: cover;
+}
+
+.galery-img6{
+  height: 318px;
+  display: block;
+  background-image: url('../img/galeria/cozinha.png');
+  background-size: cover;
+}

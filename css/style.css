@@ -5,6 +5,13 @@
 .banner{
   padding-top: 15rem;
   padding-bottom: 05rem;
+  background-image: url(../img/cozinhaDesf.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:0px 0px;
+    height: 800px;
+  
 }
 main{
   margin-top: 140px;
@@ -41,4 +48,15 @@ section#home{
 
 #copyright{
   padding-top: 40px;
+}
+
+.zoom {
+ 
+  transition: transform .2s; /* Animation */
+  
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
