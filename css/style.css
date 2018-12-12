@@ -2,6 +2,10 @@
 .logo{
   height: 80px;
 }
+.banner{
+  padding-top: 20rem;
+  padding-bottom: 05rem;
+}
 main{
   margin-top: 140px;
 }
