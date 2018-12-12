@@ -4,3 +4,17 @@
   background-image: url('../img/galeria/taças.jpg');
   background-size: cover;
 }
+
+.galery-img2{
+  height: 318px;
+  display: block;
+  background-image: url('../img/galeria/pia.jpg');
+  background-size: cover;
+}
+
+.galery-img3{
+  height: 318px;
+  display: block;
+  background-image: url('../img/galeria/escritorio.png');
+  background-size: cover;
+}
