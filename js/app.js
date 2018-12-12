@@ -22,7 +22,7 @@ debounce = function(func, wait, immediate) {
 };
 
 var reduceNavbar = function() {
-    if ($("#mainNav").offset().top > 70) {
+    if ($("#mainNav").offset().top > 50) {
         $("#mainNav").addClass("reduce"), $("#logo").addClass("reduce-img");
         
         console.log("log")
