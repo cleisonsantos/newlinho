@@ -2,15 +2,29 @@
 .logo{
   height: 80px;
 }
-
+main{
+  margin-top: 140px;
+}
 section#home{
   background-image: ;
   height: 100%;
   width: 100%;
 
 }
-
-
+#mainNav{
+  
+  transition: padding-top .35s, padding-bottom .35s;
+}
+#mainNav.reduce{
+  padding-top: 3px;
+  padding-bottom: 3px; 
+}
+#logo{
+  transition: height .35x;
+}
+#logo.reduce-img{
+  height: 60px;
+}
 
 
 #logo_rodape{
