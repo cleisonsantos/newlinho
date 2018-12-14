@@ -3,14 +3,14 @@
   height: 60px;
 }
 .banner{
-  padding-top: 15rem;
+  padding-top: 13rem;
   padding-bottom: 05rem;
   background-image: url(../img/cozinhaDesf.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:0px 0px;
-    height: 800px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:0px 0px;
+  height: 800px;
   
 }
 main{
