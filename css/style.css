@@ -23,7 +23,7 @@ section#home{
 
 }
 #mainNav{
-  
+  padding: .5rem;
   transition: padding-top .35s, padding-bottom .35s;
 }
 #mainNav.reduce{
