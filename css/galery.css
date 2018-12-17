@@ -1,6 +1,9 @@
 #mainWrap{
 
 }
+#mainGalery{
+  width: 100%;
+}
 .sidebar {
   display: none;
   position: static;
@@ -109,8 +112,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  padding-top: 90px;
-  padding-left: ;
+  padding-top: 86px;
   background-color: rgba(10, 10, 10, .7);
   position: fixed;
   visibility: hidden;
