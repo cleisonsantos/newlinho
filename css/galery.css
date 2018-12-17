@@ -104,3 +104,40 @@
   background-image: url('../img/galeria/cozinha.png');
   background-size: cover;
 }
+.lbox{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+  padding-left: 10%;
+  background-color: rgba(10, 10, 10, .7);
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+}
+.lbox:target{
+  visibility: visible;
+  opacity: 1;
+}
+.box-img{
+  display: block;
+  
+}
+.box-img img {
+  height: 10rem;
+}
+#prev{
+  position: fixed;
+  top: 45%;
+  left: 2%;
+}
+#close{
+  top: 100px;
+  right: 2%;
+  position: fixed;
+}
+#next{
+  position: fixed;
+  top: 45%;
+}
