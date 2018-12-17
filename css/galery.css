@@ -122,6 +122,9 @@
   visibility: visible;
   opacity: 1;
 }
+.lbox a {
+  opacity: .6;
+}
 .box-img{
   display: block;
 
