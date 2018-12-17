@@ -109,8 +109,8 @@
   width: 100%;
   top: 0;
   left: 0;
-  padding-top: 100px;
-  padding-left: 10%;
+  padding-top: 90px;
+  padding-left: ;
   background-color: rgba(10, 10, 10, .7);
   position: fixed;
   visibility: hidden;
@@ -122,22 +122,23 @@
 }
 .box-img{
   display: block;
-  
+
 }
 .box-img img {
-  height: 10rem;
+
 }
 #prev{
   position: fixed;
-  top: 45%;
+  top: 55%;
   left: 2%;
 }
 #close{
-  top: 100px;
+  top: 90px;
   right: 2%;
   position: fixed;
 }
 #next{
   position: fixed;
-  top: 45%;
+  top: 55%;
+  right: 2%;
 }
