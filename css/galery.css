@@ -1,10 +1,74 @@
+#mainWrap{
+
+}
+.sidebar {
+  display: none;
+  position: static;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+
+}
+.sidebar-sticky {
+  position: static;
+  overflow: scroll;
+}
+
+#leftNav{
+ float: left;
+
+
+}
+#leftNav nav{
+
+}
+#leftNav ul {
+  list-style: none;
+}
+#leftNav ul li{
+
+}
+#leftNav li {
+
+}
+#leftNav ul li a {
+  display: block;
+  padding: 10px 25px;
+  margin: 1px;
+  background-color: #1a1a1a;
+  color: #fff;
+  text-decoration: none;
+}
+#leftNav a:hover{
+  background-color: #070707;
+}
+#leftNav a.active{
+  background-color: #070707;
+}
+#leftNav span{
+  float: right;
+  padding-left: 20px;
+}
+#galery{
+  display: block;
+  float: left;
+}
 .galery-img{
   height: 318px;
   display: block;
   background-image: url('../img/galeria/taças.jpg');
   background-size: cover;
 }
-
+.img-max{
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  top: 0%;
+  left: 0%;
+}
 .galery-img2{
   height: 318px;
   display: block;
@@ -17,6 +81,7 @@
   display: block;
   background-image: url('../img/galeria/escritorio.png');
   background-size: cover;
+  background-attachment: ;
 }
 
 .galery-img4{
