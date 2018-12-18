@@ -143,9 +143,10 @@
   left: 2%;
 }
 #close{
+  position: fixed;
   top: 90px;
   right: 2%;
-  position: fixed;
+
 }
 #next{
   position: fixed;
