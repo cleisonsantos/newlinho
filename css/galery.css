@@ -124,6 +124,7 @@
 }
 .lbox a {
   opacity: .6;
+  font-size: 30px;
 }
 .box-img{
   display: block;
