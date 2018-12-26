@@ -36,7 +36,3 @@ reduceNavbar();
 
 debounce($(window).scroll(reduceNavbar),300);
 
-
-function loading(){
-	$('#load').css('display','none');
-}
