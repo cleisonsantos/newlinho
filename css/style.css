@@ -84,11 +84,18 @@ section#home{
   }
 
   .fadeIn {
-    -webkit-animation: fadeIn 2s ease-in-out;
-    -moz-animation: fadeIn 2s ease-in-out;
-    -o-animation: fadeIn 2s ease-in-out;
-    animation: fadeIn 2s ease-in-out;
+    -webkit-animation: fadeIn 1s ease-in-out;
+    -moz-animation: fadeIn 1s ease-in-out;
+    -o-animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
     }
+
+    .fadeIn_banner {
+      -webkit-animation: fadeIn 2s ease-in-out;
+      -moz-animation: fadeIn 2s ease-in-out;
+      -o-animation: fadeIn 2s ease-in-out;
+      animation: fadeIn 2s ease-in-out;
+      }
 
 
   /*Pagina sobre*/  
