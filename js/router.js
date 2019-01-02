@@ -49,7 +49,7 @@ const Home = {
 </div>
 
 <div class="container d-flex">
-  <a href="galeria.html" class="btn btn-lg btn-outline-primary mx-auto">Ver mais...</a>
+  <a href="/galeria" class="btn btn-lg btn-outline-primary mx-auto">Ver mais...</a>
 </div>
 </section>
 </div>`}
@@ -142,16 +142,154 @@ const Galery = { template: `
 
         <div class="container ">
           <h1 class="lead text-center">Gostou de nossos produtos?</h1>
-          <div class="row py-3"><a href="contato.html" class="btn btn-lg btn-outline-primary mx-auto ">Solicitar orçamento</a></div>
+          <div class="row py-3"><a href="/contato" class="btn btn-lg btn-outline-primary mx-auto ">Solicitar orçamento</a></div>
         </div>
   </div>
 ` }
 
-const About = { template: '<p>Sobre</p>' }
+const Services = { template: `
+<div>
+<div class="container py-5 fadeIn">
+         <h1 class="text-center">Serviços</h1>
+          <div class="row ">
+            <div class="col-md-12">
+             <p class="lead text-center">Conheça um pouco mais sobre nossos serviços</p>
+            </div>
+          </div>
+            <!--Coloquei os br só pra ver espaçamento-->
+
+
+       <div class="row container">
+         <div class="col-md-12">
+          <section class="fadeIn">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                  <div class="p-3">
+                    <img class="img-fluid rounded-circle" src="img/serviços/ideia.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                  <div class="p-5">
+                    <h2 class="">Sonhe e imagine</h2>
+                    <p>Deixe o resto com a gente, desenvolvemos projetos,realizamos sonhos. Com a Linho Móveis isso é possivel, fabricamos moveis planejados de diversos seguimentos</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="fadeIn">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="p-3">
+                    <img class="img-fluid rounded-circle" src="img/serviços/qualidade.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="p-5">
+                    <h2 class="">Qualidade e excelência</h2>
+                    <p>Trabalhamos no ramo de móveis planejados á anos, contamos com profissionais qualificados e experientes, trabalhamos com madeiras e materiais de qualidade</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="fadeIn">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                  <div class="p-3">
+                    <img class="img-fluid rounded-circle" src="img/serviços/garantia.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                  <div class="p-5">
+                    <h2 class="">Garantia de Serviço</h2>
+                    <p>Nossos serviços possuem garantia em todos os pontos! pagamento de 50% e o restando na entrega final do produto</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <br>
+         </div>
+       </div>
+      </div>
+</div>
+` }
+
+const Contact = { template: `
+<div>
+<div class="container py-5 text-center">
+<div class="row ">
+  <div class="col-md-12">
+   <h1 class="pb-3">Contato</h1>
+   <h1 class="lead">Deixe sua mensagem, peça um orçamento</h1>
+  </div>
+</div>
+  <div class="row">
+  <div class="col-md-6 mx-auto">
+
+     <div class="form-group row">
+     <div class="col-sm-10 mx-auto">
+
+      <input type="text" class="form-control-plaintext border border-primary px-2" id="staticEmail" placeholder="Digite seu email">
+
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-sm-10 mx-auto">
+
+     <input type="text" class="form-control-plaintext border border-primary px-2" id="staticEmail" placeholder="(xx) 99999999">
+
+   </div>
+ </div>
+
+ <div class="form-group">
+
+    <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Digite aqui a sua mensagem"></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+
+ </div>
+
+</div>
+
+
+    
+</div>
+
+</div>
+</div>
+`}
+
+const About = { template: `
+<div>
+<div class="container my-5 py-5">
+         <h1 class="text-center pb-3">A Empresa</h1>
+          <div class="row">
+            <div class="col-md-6 mx-auto ">
+              <h1 class="lead text-center">Sobre a Linho Móveis</h1>
+              <p class="text-center">A Linho Móveis é uma empresa de fabricação de móveis planejados fundadas em meados de 2010,
+                  está localizada na cidade de Ribeirão das Neves - MG , região metropolitada
+               de Belo Horizonte , Linho Móveis trabalha com móveis planejados de diversos segmentos para sua casa ou empresa,possuimos
+               tambem um grande portifólio de segmento para móveis de escritorio! Entre em contato e solicite seu orçamento sem compromisso!</p>
+            </div>
+          </div>
+       </div>
+</div>
+` }
 
 const routes = {
   '/': Home,
   '/galeria': Galery,
+  '/servicos': Services,
+  '/contato': Contact,
   '/sobre': About
 }
 
